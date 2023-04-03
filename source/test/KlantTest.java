@@ -25,4 +25,4 @@ import static org.junit.Assert.*;
             assertEquals(456789012, klant.getTelefoonnummer());
         }
     }
-}
+
