@@ -1,28 +1,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-class Scheepsbouwer{
-    ArrayList<String> klanttypes = new ArrayList<String>();
-    public static void selecteerKlantType(){
-
-    }
-
-}
-
-class Klantgegevens {
-
-}
-
-class Offerteberekenig{
-
-}
-class Offerte{
-
-}
-
-
-
-
 public class TestClass {
     //particulier
     //bedrijf
