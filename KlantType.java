@@ -1,26 +1,18 @@
 public class KlantType
 {
-    private String adres;
-    private int telefoonnummer;
+    private String klanttype;
+    private Milieukorting kortingpercentage;
 
-    public KlantType(String adres, int telefoonnummer) {
-        this.adres = adres;
-        this.telefoonnummer = telefoonnummer;
+    public KlantType(String klanttype, int kortingpercentage) {
+        super(kortingpercentage);
+        this.klanttype= klanttype;
     }
 
-    public String getAdres() {
-        return adres;
+    public String getKlanttype() {
+        return klanttype;
     }
 
-    public void setAdres(String adres) {
-        this.adres = adres;
-    }
-
-    public int getTelefoonnummer() {
-        return telefoonnummer;
-    }
-
-    public void setTelefoonnummer(int telefoonnummer) {
-        this.telefoonnummer = telefoonnummer;
+    public void setKlanttype(String klanttype) {
+        this.klanttype = klanttype;
     }
 }
