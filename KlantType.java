@@ -1,7 +1,7 @@
-public class KlantType extends Milieukorting
+public class KlantType extends MilieuKorting
 {
     private String klanttype;
-    private Milieukorting kortingpercentage;
+
 
     public KlantType(String klanttype, int kortingpercentage) {
         super(kortingpercentage);

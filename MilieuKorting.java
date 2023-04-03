@@ -2,6 +2,9 @@ public class MilieuKorting {
     protected int kortingPercentage;
     protected String beschrijving;
 
+    public MilieuKorting(int kortingPercentage) {
+        this.kortingPercentage = kortingPercentage;
+    }
     public MilieuKorting(int kortingPercentage, String beschrijving) {
         this.kortingPercentage = kortingPercentage;
         this.beschrijving = beschrijving;
