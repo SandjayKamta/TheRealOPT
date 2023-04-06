@@ -1,5 +1,7 @@
 
 import org.junit.Test;
+import source.src.MilieuKorting;
+
 import static org.junit.Assert.assertEquals;
 
 public class MilieuKortingTest {

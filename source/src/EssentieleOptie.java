@@ -1,3 +1,5 @@
+package source.src;
+
 public class EssentieleOptie extends Optie{
     private String essentieleoptie;
 

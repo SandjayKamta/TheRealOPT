@@ -1,3 +1,5 @@
+package source.src;
+
 public class KlantType extends MilieuKorting
 {
     private String klanttype;

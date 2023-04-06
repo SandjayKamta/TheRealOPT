@@ -1,3 +1,5 @@
+package source.src;
+
 public class Klant extends Gebruiker
 {
     private String adres;

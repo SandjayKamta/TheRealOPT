@@ -1,4 +1,6 @@
 import org.junit.Test;
+import source.src.Klant;
+
 import static org.junit.Assert.*;
 
     public class KlantTest {

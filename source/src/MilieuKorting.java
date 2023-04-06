@@ -1,3 +1,5 @@
+package source.src;
+
 public class MilieuKorting {
     protected int kortingPercentage;
     protected String beschrijving;

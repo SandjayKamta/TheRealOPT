@@ -1,3 +1,5 @@
+package source.src;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -16,16 +18,6 @@ public class TestClass {
         int getal1 = Userinput.nextInt();
 
         //Object van Scheepsbouwer.
-        Scheepsbouwer leeftijd = new Scheepsbouwer();
 
-        leeftijd.klanttypes.add(String.valueOf(getal1));
-
-
-
-
-
-
-
-        System.out.print(leeftijd.klanttypes.get(0));
     }
 }

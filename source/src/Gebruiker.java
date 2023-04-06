@@ -1,3 +1,5 @@
+package source.src;
+
 public class Gebruiker
 {
     private String naam;
